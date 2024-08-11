@@ -1,0 +1,75 @@
+//run and debug -> create a launch.json file. fica dentro da pasta .vscode, nao faz parte do projeto.
+//programa de configuração de debug
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",//inicia aplicação do zero
+            "name": "1-meuPrimeiroPrograma",//personalizar pra escolher o tipo de debug que quer executar
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/1-meuPrimeiroPrograma.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",//inicia aplicação do zero
+            "name": "3-operacoesAritmeticas",//personalizar pra escolher o tipo de debug que quer executar
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/3-operacoesAritmeticas.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",//inicia aplicação do zero
+            "name": "4-conversaoDeTipos",//personalizar pra escolher o tipo de debug que quer executar
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/4-conversaoDeTipos.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",//inicia aplicação do zero
+            "name": "5-atribuicaoVariaveis",//personalizar pra escolher o tipo de debug que quer executar
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/5-atribuicaoVariaveis.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",//inicia aplicação do zero
+            "name": "6-listas",//personalizar pra escolher o tipo de debug que quer executar
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/6-listas.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",//inicia aplicação do zero
+            "name": "7-condicionais",//personalizar pra escolher o tipo de debug que quer executar
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/7-condicionas.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",//inicia aplicação do zero
+            "name": "8-loops",//personalizar pra escolher o tipo de debug que quer executar
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/8-loops.js"
+        }//dá pra copiar o trecho 9-17, colar e personalizar, como a baixo:
+        //dá pra criar varias configuracoes, uma pra cada arquivo
+
+    ]
+}

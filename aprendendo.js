@@ -1,0 +1,5 @@
+const personagensSherlock = new Array ('Sherlock Holmes', 'John Watson')
+personagensSherlock.push('Mrs Hudson')
+console.log(personagensSherlock)
+personagensSherlock.splice(2,1)
+console.log(personagensSherlock)
