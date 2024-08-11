@@ -35,7 +35,7 @@ As seguintes ferramentas foram usadas na construção do projeto:<br/>
 
 ## 🤝 Agradecimentos
 
-Agradeço a <a href="https://github.com/alura-cursos">Alura💻</a> e ao professor <a href="https://github.com/pedromarins">Pedro Marins</a>, que disponibilizaram esse curso de JavaScript na plataforma.
+Agradeço a <a href="https://github.com/alura-cursos">Alura💻</a> e ao professor <a href="https://cursos.alura.com.br/user/RicardoBugan">Ricardo Bugan</a>, que disponibilizaram esse curso de JavaScript na plataforma.
 
 ---
 
